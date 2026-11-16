@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<sim>
+		<model>
+			<livery>
+				<name type="string">FGUK</name>
+				<pylons type="bool">false</pylons>
+				<doors type="bool">true</doors>
+				<plates type="bool">false</plates>
+				<filters type="bool">false</filters>
+				<texture>Liveries/FGUK.png</texture>
+			</livery>
+			<livery-logo>
+				<texture>Liveries/FGUK.png</texture>
+			</livery-logo>
+			<bo105>
+	   <hdr>true</hdr>
+		<als>false</als>
+		</bo105>
+		</model>
+		<rendering>
+    <refl_correction type="string">-0.23</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+	</sim>
+
+</PropertyList>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+      <!-- Model -->
+
+      <path>OH-58D.ac</path>
+
+    
+      <!-- Rembrandt -->
+
+      <effect>
+           <inherits-from>Aircraft/OH-58D/Models/Effects/glassout</inherits-from>
+          
+            <object-name>Glass</object-name>
+      </effect>
+	  
+	  <animation>
+  <type>select</type>
+<object-name>Glass</object-name>
+    
+  <condition>
+   <not>
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   </not>
+  </condition>
+ </animation>
+	  
+	<effect>
+       <inherits-from>Effects/glass</inherits-from>
+	 <object-name>Glassin</object-name>
+    </effect>
+
+<animation>
+  <type>select</type>
+<object-name>Glassin</object-name>
+  <condition>
+
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+   
+  </condition>
+ </animation>	
+ 
+  <effect>
+    <inherits-from>Aircraft/OH-58D/Models/Effects/bumps</inherits-from>
+   <object-name>Fuselage</object-name>
+            <object-name>TailBoom</object-name>
+            <object-name>TailFin</object-name>
+            <object-name>TailPylon</object-name>
+            <object-name>PilotDoor</object-name>
+            <object-name>CoPilotDoor</object-name>
+            <object-name>RightDoor</object-name>
+            <object-name>LeftDoor</object-name>
+            <object-name>RightPlate</object-name>
+            <object-name>LeftPlate</object-name>
+            <object-name>DoorHinges</object-name>
+            <object-name>RightStabilizer</object-name>
+            <object-name>LeftStabilizer</object-name>
+            <object-name>Bottom</object-name>
+            <object-name>LeftIntake</object-name>
+            <object-name>RightIntake</object-name>
+            <object-name>Sensors</object-name>
+            <object-name>Sensor</object-name>
+            <object-name>LeftAntenna</object-name>
+            <object-name>RightAntenna</object-name>
+            <object-name>RightFilter</object-name>
+            <object-name>LeftFilter</object-name>
+            <object-name>TopWireCutter</object-name>
+            <object-name>BottomWireCutter</object-name>
+            <object-name>RightPylon</object-name>
+            <object-name>RightPylonMount</object-name>
+            <object-name>RightPylonHand</object-name>
+            <object-name>LeftPylon</object-name>
+            <object-name>LeftPylonMount</object-name>
+            <object-name>LeftPylonHand</object-name>
+			 <object-name>RightPylon</object-name>
+            <object-name>RightPylonMount</object-name>
+            <object-name>RightPylonHand</object-name>
+            <object-name>LeftPylon</object-name>
+            <object-name>LeftPylonMount</object-name>
+            <object-name>LeftPylonHand</object-name>
+  </effect>
+  
+   <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+	<object-name>MainRotorBlade1</object-name>
+		
+		<object-name>MainRotorBlade2</object-name>
+	    
+		
+		<object-name>MainRotorBlade3</object-name>
+	    
+		
+		<object-name>MainRotorBlade4</object-name>
+		
+		<object-name>blurred1</object-name>
+		
+		<object-name>blurred2</object-name>
+	   
+		<object-name>blurred3</object-name>
+	   
+		<object-name>blurred4</object-name>
+		
+        <object-name>TailRotorBlade1</object-name>
+            <object-name>TailRotorBlade2</object-name>
+	  
+        	
+		 <object-name>blurred</object-name>
+  </effect> 
+	  
+
+     
+
+</PropertyList>

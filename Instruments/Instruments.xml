@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<model>
+		<name>FlightComputer</name>
+		<path>Aircraft/OH-58D/Instruments/FlightComputer/FlightComputer.xml</path>
+		<offsets>
+			<x-m>-1.7438</x-m>
+			<y-m>-0.5364</y-m>
+			<z-m> 0.3336</z-m>
+			<pitch-deg>-15</pitch-deg>
+			<heading-deg>24</heading-deg>
+		</offsets>
+	</model>
+
+
+
+	<model>
+		<name>Torque</name>
+		<path>Aircraft/OH-58D/Instruments/Torque/Torque.xml</path>
+		<offsets>
+			<x-m>-1.894</x-m>
+			<y-m> 0.123</y-m>
+			<z-m> 0.288</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.99</y-offset>
+    <z-offset>0.85</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>RPM</name>
+		<path>Aircraft/OH-58D/Instruments/RPM/RPM.xml</path>
+		<offsets>
+			<x-m>-1.895</x-m>
+			<y-m> 0.08</y-m>
+			<z-m> 0.297</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.81</y-offset>
+    <z-offset>0.95</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>OilFuel</name>
+		<path>Aircraft/OH-58D/Instruments/OilFuel/OilFuel.xml</path>
+		<offsets>
+			<x-m>-1.8403</x-m>
+			<y-m> 0.0107</y-m>
+			<z-m> 0.12</z-m>
+			<pitch-deg>-14.5</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.85</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>Weapons</name>
+		<path>Aircraft/OH-58D/Instruments/Weapons/Weapons.xml</path>
+		<offsets>
+			<x-m>-1.885</x-m>
+			<y-m>-0.015</y-m>
+			<z-m> 0.305</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>0.85</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>RWR</name>
+		<path>Aircraft/OH-58D/Instruments/RWR/RWR.xml</path>
+		<offsets>
+			<x-m>-1.888</x-m>
+			<y-m>0.414</y-m>
+			<z-m> 0.18</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="600">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.6</y-offset>
+    <z-offset>0.6</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>Compass</name>
+		<path>Aircraft/OH-58D/Instruments/Compass/Compass.xml</path>
+		<offsets>
+			<x-m>-1.832</x-m>
+			<y-m> 0.517</y-m>
+			<z-m> 0.085</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.001</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>Clock</name>
+		<path>Aircraft/OH-58D/Instruments/Clock/Clock.xml</path>
+		<offsets>
+			<x-m>-1.888</x-m>
+			<y-m> 0.4145</y-m>
+			<z-m> 0.2453</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.88</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>ASI</name>
+		<path>Aircraft/OH-58D/Instruments/ASI/asi.xml</path>
+		<offsets>
+			<x-m>-1.878</x-m>
+			<y-m>-0.0572</y-m>
+			<z-m> 0.193</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.74</y-offset>
+    <z-offset>0.76</z-offset>
+   </animation>
+  </overlay>
+		
+	</model>
+
+	<model>
+		<name>ALT</name>
+		<path>Aircraft/OH-58D/Instruments/ALT/ALT.xml</path>
+		<offsets>
+			<x-m>-1.873</x-m>
+			<y-m> 0.105</y-m>
+			<z-m> 0.193</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>ADI</name>
+		<path>Aircraft/OH-58D/Instruments/ADI/ADI.xml</path>
+		<offsets>
+			<x-m>-1.877</x-m>
+			<y-m> 0.02</y-m>
+			<z-m> 0.195</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>LMFD</name>
+		<path>Aircraft/OH-58D/Instruments/LMFD/LMFD.xml</path>
+		<offsets>
+			<x-m>-1.877</x-m>
+			<y-m>-0.203</y-m>
+			<z-m> 0.231</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.92</y-offset>
+    <z-offset>0.98</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>RMFD</name>
+		<path>Aircraft/OH-58D/Instruments/RMFD/RMFD.xml</path>
+		<offsets>
+			<x-m>-1.8742</x-m>
+			<y-m> 0.2725</y-m>
+			<z-m> 0.229</z-m>
+			<pitch-deg>-15</pitch-deg>
+		</offsets>
+			<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.925</y-offset>
+    <z-offset>0.985</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>Pilot Collective</name>
+		<path>Aircraft/OH-58D/Instruments/Collective/Collective.xml</path>
+		<offsets>
+			<x-m>-1.1015</x-m>
+			<y-m> 0.0604</y-m>
+			<z-m>-0.0168</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>CoPilot Collective</name>
+		<path>Aircraft/OH-58D/Instruments/Collective/Collective.xml</path>
+		<offsets>
+			<x-m>-1.1015</x-m>
+			<y-m>-0.5519</y-m>
+			<z-m>-0.0168</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>Pilot Cyclic</name>
+		<path>Aircraft/OH-58D/Instruments/Cyclic/Cyclic.xml</path>
+		<offsets>
+			<x-m>-1.5774</x-m>
+			<y-m> 0.3122</y-m>
+			<z-m>-0.0455</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>CoPilot Cyclic</name>
+		<path>Aircraft/OH-58D/Instruments/Cyclic/Cyclic.xml</path>
+		<offsets>
+			<x-m>-1.5774</x-m>
+			<y-m>-0.3122</y-m>
+			<z-m>-0.0455</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>Pilot Pedals</name>
+		<path>Aircraft/OH-58D/Instruments/Pedals/Pedals.xml</path>
+		<offsets>
+			<x-m>-1.9419</x-m>
+			<y-m> 0.3464</y-m>
+			<z-m>-0.2026</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>CoPilot Pedals</name>
+		<path>Aircraft/OH-58D/Instruments/Pedals/Pedals.xml</path>
+		<offsets>
+			<x-m>-1.9419</x-m>
+			<y-m>-0.3464</y-m>
+			<z-m>-0.2026</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+</PropertyList>

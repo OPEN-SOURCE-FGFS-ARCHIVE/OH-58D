@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<sim>
+		<model>
+			<livery>
+				<name type="string">US Army 6 Sqdn 17 Cav</name>
+				<pylons type="bool">true</pylons>
+				<doors type="bool">false</doors>
+				<plates type="bool">true</plates>
+				<filters type="bool">true</filters>
+				<texture>Liveries/USArmy6S17Cav.png</texture>
+			</livery>
+			<livery-logo>
+				<texture>Liveries/USArmy6S17Cav.png</texture>
+			</livery-logo>
+			<bo105>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</bo105>
+		</model>
+		<rendering>
+    <refl_correction type="string">-0.43</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+	</sim>
+
+</PropertyList>
